@@ -81,7 +81,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <textarea name="description" required></textarea>
         <label>Время приготовления (мин):</label>
         <input type="number" name="cooking_time" required>
-        <label>Ингредиенты:</label>
+        <label>Ингридиенты:</label>
         <textarea name="ingredients" required></textarea>
         <input type="submit" value="Сохранить">
     </form>

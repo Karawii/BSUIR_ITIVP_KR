@@ -115,6 +115,6 @@ $result = mysqli_query($conn, $query);
         </tr>
         <?php endwhile; ?>
     </table>
-    <a class="add-button" href="add.php">Добавить новый ингредиент</a>
+    <a class="add-button" href="add.php">Добавить новый ингридиент</a>
 </body>
 </html>
