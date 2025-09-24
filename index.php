@@ -10,7 +10,7 @@ $result = mysqli_query($conn, $query);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Список ингридиентов</title>
+    <title>Список рецептов</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -84,7 +84,7 @@ $result = mysqli_query($conn, $query);
     </style>
 </head>
 <body>
-    <h1>Список задач</h1>
+    <h1>Список рецептов</h1>
     <table>
         <tr>
             <th>ID</th>
@@ -115,6 +115,6 @@ $result = mysqli_query($conn, $query);
         </tr>
         <?php endwhile; ?>
     </table>
-    <a class="add-button" href="add.php">Добавить новый ингридиент</a>
+    <a class="add-button" href="add.php">Добавить новый рецепт</a>
 </body>
 </html>

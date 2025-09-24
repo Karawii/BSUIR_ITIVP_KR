@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Добавить ингридиент</title>
+    <title>Добавить рецепт</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -73,7 +73,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </style>
 </head>
 <body>
-    <h1>Добавить новый ингридиент</h1>
+    <h1>Добавить новый рецепт</h1>
     <form method="POST">
         <label>Название:</label>
         <input type="text" name="title" required>
@@ -81,7 +81,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <textarea name="description" required></textarea>
         <label>Время приготовления (мин):</label>
         <input type="number" name="cooking_time" required>
-        <label>Ингридиенты:</label>
+        <label>Ингредиенты:</label>
         <textarea name="ingredients" required></textarea>
         <input type="submit" value="Сохранить">
     </form>

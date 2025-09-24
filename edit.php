@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Редактировать ингридиент</title>
+    <title>Редактировать рецепт</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -78,7 +78,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </style>
 </head>
 <body>
-    <h1>Редактировать задачу</h1>
+    <h1>Редактировать рецепт</h1>
     <form method="POST">
         <label>Название:</label>
         <input type="text" name="title" value="<?php echo $row['title']; ?>" required>
