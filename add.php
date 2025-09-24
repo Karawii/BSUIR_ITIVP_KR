@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $description = $_POST['description'];
     $cooking_time = $_POST['cooking_time'];
     $ingredients = $_POST['ingredients'];
-    $status = 'не выполнена';
+    $status = 'В разработке';
 
     $query = "INSERT INTO recipes (title, description, cooking_time, ingredients, status) 
               VALUES ('$title', '$description', $cooking_time, '$ingredients', '$status')";
@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Добавить ингредиент</title>
+    <title>Добавить ингридиент</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -73,7 +73,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </style>
 </head>
 <body>
-    <h1>Добавить новую задачу</h1>
+    <h1>Добавить новый ингридиент</h1>
     <form method="POST">
         <label>Название:</label>
         <input type="text" name="title" required>
